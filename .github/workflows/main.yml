@@ -1,4 +1,4 @@
-name: nmr CI/CD
+ntname: nmr CI/CD
 
 on:
   push:
@@ -21,4 +21,4 @@ jobs:
     - run: npm ci
     # - run: npm test
     # - run: pm2 start server.js --name=lynks-engine
-    - run: npm run build
+    - run: npm run build -- if present
